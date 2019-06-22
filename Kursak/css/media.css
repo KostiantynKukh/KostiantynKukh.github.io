@@ -1,0 +1,84 @@
+@media (max-width:1024px){
+    html{
+    font-size: 9px;
+    }   
+    .main-nav li{
+        padding: 2rem 0;
+    }
+    .main-nav li .tooWide{
+        padding: 0.5rem 0.4rem;
+    }
+    .main-nav ul{
+        align-items: center;
+    }
+    .main-aside>*{
+        margin: 20px 5px; 
+        
+    }
+    .main-aside img{
+        margin-right: 5px;
+    }
+    .teams{
+        display: none;
+    }
+}
+@media (max-width:768px){
+    html{
+        font-size: 10px;
+        }  
+    #main{
+        flex-direction: column;
+      }
+      body{
+          width: 100%;
+      }
+      .header{
+          flex-direction: column;
+      }
+      .header-right{
+          flex-direction: column;
+          align-items: center;
+        }
+        .header-right>*{
+            margin-top:15px;
+        }
+        .main-aside ul {
+            align-items: center;
+        }
+        .main-bottom{
+            margin-top:20px;
+        }
+        footer{
+            padding:10px;
+        }
+        footer span {
+            font-size: 1.3rem;
+        }  
+        .main-bottom-news img{
+            display: none;
+        }    
+}
+@media (max-width:480px){
+    html{
+        font-size: 9px;
+        } 
+        .slider{
+            width:316px;
+        } 
+        .animation h3{
+            padding-right: 50px;
+        }
+        .social_icons a {
+            margin-right: 5px;
+            font-size: 2.5rem;
+        }
+        .social_icons a:hover{
+            font-size: 2.5rem;
+        }
+        .header-search{
+            width: 210px;
+        }   
+        .premier_league{
+            width: 100%;
+        }
+}
